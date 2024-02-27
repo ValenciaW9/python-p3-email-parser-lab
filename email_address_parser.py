@@ -2,6 +2,10 @@
 
 import re
 
+class EmailAddressParser:
+def init(self, emailaddresses):
+self.emailaddresses = email_addresses
+
 def parse(self):
     addresses = re.split(r",|\s", self.email_addresses)
 
